@@ -22,3 +22,7 @@ hr{
     background-image: linear-gradient(to right, #9921e8, #7f5ff6, #7382f7, #7d9eef, #9ab5e1);
     color: white;
 }
+
+#boxlogin{
+    margin: 150px 450px 150px 450px;
+} 
