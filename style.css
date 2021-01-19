@@ -5,3 +5,20 @@
 #titre{
     padding: 100px 150px 130px 100px;
 }
+
+hr{
+  border: 10px solid purple;
+  border-radius: 3px;
+  margin: 0px;
+  background-image: linear-gradient(to right, #9921e8, #7f5ff6, #7382f7, #7d9eef, #9ab5e1);
+}
+
+#colorfooter{
+    background-image: linear-gradient(to right, #9921e8, #7f5ff6, #7382f7, #7d9eef, #9ab5e1);
+    color: white;
+}
+
+.buttoncolor{
+    background-image: linear-gradient(to right, #9921e8, #7f5ff6, #7382f7, #7d9eef, #9ab5e1);
+    color: white;
+}
