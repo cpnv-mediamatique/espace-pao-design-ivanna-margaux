@@ -6,11 +6,15 @@
     padding: 100px 150px 130px 100px;
 }
 
-hr{
+.lignenav{
   border: 10px solid purple;
   border-radius: 3px;
   margin: 0px;
   background-image: linear-gradient(to right, #9921e8, #7f5ff6, #7382f7, #7d9eef, #9ab5e1);
+}
+.lignegrise{
+  
+    margin: 25px -10px -25px -10px;
 }
 
 #colorfooter{
@@ -21,4 +25,13 @@ hr{
 .buttoncolor{
     background-image: linear-gradient(to right, #9921e8, #7f5ff6, #7382f7, #7d9eef, #9ab5e1);
     color: white;
+}
+
+#boxlogin{
+    margin: 150px 450px 150px 450px;
+} 
+
+#buttoncolorgrey{
+    background-image: grey;
+    color: white;  
 }
