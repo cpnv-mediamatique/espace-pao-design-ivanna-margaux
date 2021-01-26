@@ -13,9 +13,8 @@
   background-image: linear-gradient(to right, #9921e8, #7f5ff6, #7382f7, #7d9eef, #9ab5e1);
 }
 .lignegrise{
-    border: 3px solid black;
-    border-radius: 3px;
-    margin: 0px;
+  
+    margin: 25px -10px -25px -10px;
 }
 
 #colorfooter{
