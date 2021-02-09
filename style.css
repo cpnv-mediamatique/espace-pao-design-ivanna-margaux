@@ -25,6 +25,7 @@
 #colorfooter{
     background-image: linear-gradient(to right, #9921e8, #7f5ff6, #7382f7, #7d9eef, #9ab5e1);
     color: white;
+    padding: 100px;
 }
 
 .buttoncolor{
@@ -43,15 +44,10 @@
 
 #titre1{
     padding: 100px 150px 85px 100px;
-    @font-face {
-        font-family: Roboto;
-        src:local 
-            url(Roboto-Regular.ttf);
-    }
 }
 
 .form-control{
-    padding-bottom: 23px;
+    padding-bottom: 6px;
     margin-bottom: 20px;
 }
 
