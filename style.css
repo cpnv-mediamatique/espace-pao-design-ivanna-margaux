@@ -35,3 +35,15 @@
     background-image: grey;
     color: white;  
 }
+
+#titre1{
+    padding: 100px 150px 0px 100px;
+}
+
+.form-control{
+    padding-bottom: 10px;
+}
+
+#titreform{
+    padding: 34px;
+}
