@@ -1,3 +1,7 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 #textebox{
     padding: 100px 200px 200px 200px;
 }
@@ -8,6 +12,7 @@
 
 .lignenav{
   border: 10px solid purple;
+  opacity: 1;
   border-radius: 3px;
   margin: 0px;
   background-image: linear-gradient(to right, #9921e8, #7f5ff6, #7382f7, #7d9eef, #9ab5e1);
@@ -37,13 +42,24 @@
 }
 
 #titre1{
-    padding: 100px 150px 0px 100px;
+    padding: 100px 150px 85px 100px;
+    @font-face {
+        font-family: Roboto;
+        src:local 
+            url(Roboto-Regular.ttf);
+    }
 }
 
 .form-control{
-    padding-bottom: 10px;
+    padding-bottom: 23px;
+    margin-bottom: 20px;
 }
 
 #titreform{
     padding: 34px;
+}
+
+.box-form{
+    padding: 120px 10px 10px 10px;  
+    margin-bottom: 100px;
 }
