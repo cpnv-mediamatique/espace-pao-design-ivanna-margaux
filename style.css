@@ -67,3 +67,16 @@
 #nomprenom{
     padding-left: 1400px;
 }
+
+.buttoncolor{
+    margin-bottom: 50px;
+}
+
+.design{
+    height: 70px;
+    width: 120px ;
+}
+
+.dropdown-toggle{
+    margin-bottom:10px;
+}

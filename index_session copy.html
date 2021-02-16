@@ -34,84 +34,66 @@
         </div>
     </div>
 
-    <form class="box-form">
-      <div class="card w-75 container ">
-        <div class="container">
-          <h5 class="card-title text-center" id="titreform">FORMULAIRE DE COMMANDE</h5>
-        </div>
-      
-      <div class="form-group">
-        <label for="exampleInputEmail1">Nom & prénom</label>
-        <input type="email" class="form-control w-75" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div class="container">
+      <div class="row my-5">
+      <form class="col-md-6 offset-md-3">
+        <div class="card shadow bg-white rounded">
+          <h4 class="text-center my-4 text-uppercase">Formulaire de commande </h4>
+      <div class="form-floating mb-3 mx-4">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Nom et Prénom</label>
       </div>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Titre</label>
-        <input type="email" class="form-control w-75" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div class="form-floating mx-4">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Titre</label>
       </div>
-      <div class="form-group w-75">
-        <label for="exampleFormControlSelect1">Choisissez le nombre de carte de visite désirées</label>
-        <select class="form-control" id="exampleFormControlSelect1">
-          <option>25</option>
-          <option>50</option>
-          <option>100</option>
-          <option>150</option>
-        </select>
-      </div>
-
-      <label for="exampleInputEmail1">Choix du design</label>
-
-        <div class="container">
-          <div class="row">
-            <div class="col"><img src="design1.jpg" alt="" height="250px" height="150px"></div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-              <label class="form-check-label" for="exampleRadios1">
-                Design 1
-              </label>
-            </div>
-
-            <div class="col"><img src="design2.jpg" alt="" height="250px" height="150px"></div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-              <label class="form-check-label" for="exampleRadios1">
-                Design 2
-              </label>
-            </div>
-
-            <div class="w-100"></div>
-
-            <div class="col"><img src="design3.jpg" alt="" height="250px" height="150px"></div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-              <label class="form-check-label" for="exampleRadios1">
-                Design 3
-              </label>
-            </div>
-            
-            <div class="col"><img src="design4.jpg" alt="" height="250px" height="150px"></div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-              <label class="form-check-label" for="exampleRadios1">
-                Design 4
-              </label>
-            </div>
-
-            
+      <div class="form-floating mx-4">
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Nombre de cartes de visite
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">50</a>
+            <a class="dropdown-item" href="#">100</a> +<div class="0"></div>
+            <a class="dropdown-item" href="#">150</a>
           </div>
         </div>
-          <label class="form-check-label" for="exampleRadios1">
-            Design 4
-          </label>
+      </div>
+      <div class="form-check mx-4">
+        <img class="design" src="design4.jpg" alt="">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          Design 1
+        </label>
+      </div>
+      <div class="form-check mx-4">
+        <img class="design" src="design3.jpg" alt=""">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+          Design 2
+        </label>
+      </div>
+      <div class="form-check mx-4">
+        <img class="design" src="design2.jpg" alt="">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          Design 3
+        </label>
+      </div>
+      <div class="form-check mx-4">
+        <img class="design" src="design1.jpg" alt="">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+          Design 4
+        </label>
+      </div>
+      <div class="row pt-5 text-center">
+      <div class="col-sm-12 "><a href="index_session.html"><button type="button" class="btn btn-lg buttoncolor">Envoyer</button></a></div>
+      </div>
+      </div>
         </div>
-      </div>
-
-
-
-      <div class="row pt-5">
-        <div class="col-sm-12 mb-5 text-center"><button type="button" class="btn btn-lg buttoncolor">Envoyer</button></div>
-      </div>
-    </div>
-    </form>
+      </form>
+      </div> 
 
 
     <footer class="text-center text-lg-start" id="colorfooter">
