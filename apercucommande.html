@@ -16,9 +16,12 @@
   </nav>
 
   <hr class="lignenav">
+  <div>
+    <p class="text-center fs-2 text-uppercase fw-bold my-5" >Aperçu de mes commandes</p>
+  </div>
   <div class="container">
     <div class="row my-5">
-        <div class="col-md-6 offset-md-3">
+        <div class="col-md-6 offset-md-3 card shadow bg-white rounded">
   <div class="accordion accordion-flush" id="accordionFlushExample">
     <div class="accordion-item">
       <h2 class="accordion-header" id="flush-headingOne">
@@ -30,22 +33,25 @@
         <div class="accordion-body"> 
             <div class="row">
                 <div class="col-6">
-                    <p>Commande n°1</p>
+                    <p>Commande d'étiquettes personnalisées</p>
                 </div>
                 <div class="col-6">Quantités :</div>
             </div>
             <div class="row">
                 <div class="col-12">
-                    Nom et Prénom :
+                    <p>Nom de la classe</p>
                 </div>
                 <div class="col-12">
-                    Choix de design n°
+                  <p>Nom & Prénom :</p>
+              </div>
+                <div class="col-12">
+                    <p>Design choisi :</p>
                 </div>
+                <div class="col-12">
+                  <p>Format de l'étiquette :</p>
+              </div>
             </div>
-            <div class="col-12">
-                Format de l'étiquette :
-            </div>
-            <div class="row text-center mt-5">
+            <div class="row text-center my-3">
                 <div class="col-4">
                     <button type="button" class="btn btn-outline-dark">Modifier</button>
                 </div>
@@ -60,6 +66,7 @@
 </div>
     </div>
     </div>
+    <!-- 2e accordéon -->
     <div class="accordion-item">
       <h2 class="accordion-header" id="flush-headingTwo">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
@@ -67,8 +74,44 @@
         </button>
       </h2>
       <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body"></div></div>
+        <div class="accordion-body">
+          <div class="row">
+            <div class="col-6">
+              <p>Commande de carte de visite</p>
+            </div>
+            <div class="col-6">
+              <p>Quantités : </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <p>Nom & Prénom : </p>
+            </div>
+            <div class="col-12">
+              <p>Titre : </p>
+            </div>
+            <div class="col-12">
+              <p>Choix du design : </p>
+            </div>
+            <div class="col-12">
+              <p>Disponible le mardi :?</p>
+            </div>
+          </div>
+          <div class="row text-center my-3">
+            <div class="col-4">
+                <button type="button" class="btn btn-outline-dark">Modifier</button>
+            </div>
+            <div class="col-4">
+                <button type="button" class="btn btn-outline-dark">Exécuter</button>
+            </div>
+            <div class="col-4">
+                <button type="button" class="btn btn-outline-dark">Supprimer</button>
+            </div>
+        </div>
+        </div>
+        </div>
     </div>
+    <!-- 3e accordéon -->
     <div class="accordion-item">
       <h2 class="accordion-header" id="flush-headingThree">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
