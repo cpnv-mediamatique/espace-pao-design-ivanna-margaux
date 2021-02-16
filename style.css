@@ -10,8 +10,9 @@
     padding: 100px 150px 130px 100px;
 }
 
-#titre2{
-    padding: 50px 75px 50px 50px;
+#titre1{
+    padding: 100px 150px 85px 100px;
+    font-weight: bold;
 }
 
 .lignenav{
@@ -44,10 +45,6 @@
 #buttoncolorgrey{
     background-image: grey;
     color: white;  
-}
-
-#titre1{
-    padding: 100px 150px 85px 100px;
 }
 
 .form-control{
