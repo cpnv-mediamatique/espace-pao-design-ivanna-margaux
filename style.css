@@ -10,8 +10,12 @@
     padding: 100px 150px 130px 100px;
 }
 
+#titre2{
+    padding: 50px 75px 50px 50px;
+}
+
 .lignenav{
-  border: 10px solid purple;
+  border: 10px solid #7f5ff6;
   opacity: 1;
   border-radius: 3px;
   margin: 0px;
